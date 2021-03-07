@@ -1,0 +1,3 @@
+ARG NODE_VERSION="14.16.0"
+FROM node:${NODE_VERSION}
+WORKDIR /usr/src/app
